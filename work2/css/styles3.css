@@ -1,0 +1,105 @@
+body {
+    background-color: aliceblue;
+}
+
+
+.container{
+    backdrop-filter: blur(2px);
+    width: 1428px;
+    height: 40px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;   
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.img-small{
+    width: 5%;
+    height: 5%;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#testimonials{
+    background-color: #040b29;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem ;    
+    padding: 6% 15%;
+    margin-top: 70px;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+  .button:hover span {
+    padding-right: 25px;
+}
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.foot-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .block {
+    display: inline-block;
+  }
